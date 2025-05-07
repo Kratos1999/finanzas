@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Consejos prácticos sobre finanzas personales, ahorro, inversión y organización del dinero para jóvenes y principiantes." />
+  <meta name="keywords" content="finanzas personales, ahorro, inversiones, dinero, educación financiera, presupuesto, jóvenes, iniciación financiera" />
+  <meta name="author" content="Moises" />
+  <meta name="robots" content="index, follow" />
+  <title>Finanzas Para Todos | Educación Financiera desde Cero</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.querySelector('form');
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        alert('Gracias por tu mensaje. ¡Te responderemos pronto!');
+        form.reset();
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>💰 Finanzas Para Todos</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#articulos">Artículos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenido a tu guía financiera</h2>
+      <p>Aprende a manejar tu dinero de forma inteligente, sin complicaciones y desde cero. Este sitio es para ti si quieres tomar el control de tus finanzas personales.</p>
+    </section>
+
+    <section id="articulos">
+      <h2>Últimos artículos</h2>
+      <article>
+        <h3>Cómo empezar a ahorrar con bajo salario</h3>
+        <p>Descubre estrategias prácticas para ahorrar dinero aunque tus ingresos sean limitados.</p>
+        <a href="articulos/ahorro-bajo-salario.html">Leer más</a>
+      </article>
+      <article>
+        <h3>5 Apps para organizar tus gastos en 2025</h3>
+        <p>Te presentamos las mejores herramientas gratuitas para tener tus finanzas en orden.</p>
+        <a href="articulos/apps-organizar-gastos.html">Leer más</a>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>¿Tienes dudas o sugerencias?</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <div class="social-share">
+    <h3>¡Comparte este artículo!</h3>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.tusitio.com/articulo" target="_blank" title="Compartir en Facebook">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="Compartir en Facebook" style="width: 40px; margin-right: 10px;">
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=https://www.tusitio.com/articulo&text=¡Mira este artículo!" target="_blank" title="Compartir en Twitter">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Twitter_X.png" alt="Compartir en Twitter" style="width: 40px; margin-right: 10px;">
+    </a>
+    <a href="https://wa.me/?text=https://www.tusitio.com/articulo" target="_blank" title="Compartir en WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="Compartir en WhatsApp" style="width: 40px;">
+    </a>
+  </div>  
+
+  <footer>
+    <p>&copy; 2025 Finanzas Para Todos. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
